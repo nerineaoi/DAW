@@ -22,11 +22,11 @@ and project files.
 ### 2nd Year
 | Subject  | Description |
 |----------|-------------|
-| [**Desarrollo Web en Entorno Cliente (DWEC)**](./2nd-Year/Desarrollo-Web-en-Entorno-Cliente) | Frontend development with JavaScript and browser APIs. |
-| [**Desarrollo Web en Entorno Servidor (DWES)**](./2nd-Year/Desarrollo-Web-en-Entorno-Servidor) | Backend development with PHP, Node.js, and databases. |
-| [**Despliegue de Aplicaciones Web (DAW-D)**](./2nd-Year/Despliegue-de-Aplicaciones-Web) | Web server setup, deployment pipelines, and cloud hosting. |
-| [**Diseño de Interfaces Web (DIW)**](./2nd-Year/Diseno-de-Interfaces-Web) | UI/UX design and responsive web layouts. |
-| [**Blockchain (HLC)**](./2nd-Year/Blockchain) | Distributed systems, smart contracts, and decentralized web applications. |
+| [**Desarrollo Web en Entorno Cliente**](./2nd-Year/Desarrollo-Web-en-Entorno-Cliente) | Frontend development with JavaScript and browser APIs. |
+| [**Desarrollo Web en Entorno Servidor**](./2nd-Year/Desarrollo-Web-en-Entorno-Servidor) | Backend development with PHP, Node.js, and databases. |
+| [**Despliegue de Aplicaciones Web**](./2nd-Year/Despliegue-de-Aplicaciones-Web) | Web server setup, deployment pipelines, and cloud hosting. |
+| [**Diseño de Interfaces Web**](./2nd-Year/Diseno-de-Interfaces-Web) | UI/UX design and responsive web layouts. |
+| [**Blockchain**](./2nd-Year/Blockchain) | Distributed systems, smart contracts, and decentralized web applications. |
 | [**Proyecto Final (TFG)**](./2nd-Year/Proyecto-Final) | Final multidisciplinary project integrating all DAW modules. |
 
 ---
@@ -41,5 +41,5 @@ Cada carpeta incluye ejercicios prácticos, informes y proyectos desarrollados e
 
 ---
 
-> All coursework created by **Ana Paula Vertedor Conde**  
+> All coursework created by **Ana Paula Vertedor Conde**  (Alias: **Nerine Aoi**)
 > Academic years **2024–2026**
