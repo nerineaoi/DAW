@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receta de Pisto Manchego</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #ff7043;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    color: #ff7043;
+}
+
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+    text-align: left;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+ol {
+    counter-reset: step;
+}
+
+ol li {
+    counter-increment: step;
+    list-style-type: none;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+ol li::before {
+    content: counter(step);
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #ff7043;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+button {
+    background-color: #ff7043;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d65c33;
+}
+
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Receta de Pisto Manchego</h1>
+    </header>
+    <main>
+        <section>
+            <img src="https://d.img.vision/neri/1366_2000.jpg" alt="Plato de Pisto Manchego" width="300" height="225"></img>
+        </section>
+        <section>
+            <h2>Ingredientes</h2>
+	
+		<h3><b>Para 4 personas:</b></h3>
+	    <ul>
+                <li>Tomates hermosos ..................................<b>4 ud (1kg aprox)</b></li>
+                <li>Cebolla picada .........................................<b>2 ud (250g aprox)</b></li>
+		<li>Pimiento verde .........................................<b>2 ud (200g aprox)</b></li>
+                <li>Pimiento rojo ............................................<b>2 ud (200g aprox)</b></li>
+                <li>Diene de ajo .............................................<b>2 ud</b></li>
+                <li>Calabacín .................................................<b>1 ud (300g aprox)</b></li>
+                <li>Berenjena .................................................<b>1 ud (300g aprox)</b></li>
+                <li>Aceite de oliva virgen extra</li>
+                <li>Pimienta negra molida</li>
+                <li>Sal al gusto</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Preparación</h2>
+<p><b>Dificultad:</b> Fácil<br>
+<b>Tiempo total:</b> 2 h 5 m<br>
+<b>Elaboración:</b> 20 m<br>
+<b>Cocción:</b> 1 h 45 m</p>
+            <ol>
+		<li>Calentar agua en una cacerola amplia y llevar a ebullición.</li>
+		<li>Retirar la parte dura de los tomates y practicar un corte de cruz en la base.</li>
+		<li>Introducir en el agua hirviendo <b>durante 15-20 segundos.</b></li>
+		<li>Sacar e introducir en un cuenco de agua helada.</li>
+		<li>Pelar y triturar los tomates.</li>
+                <li>Pelar los dientes de ajo y la cebolla y picar finamente.</li>
+                <li>Lavar bien el resto de verdura y picar en trozos pequeños.</li>
+                <li>Reservar las verduras separadas unas de otras para ir añadiendo por fases.</li>
+                <li>Calentar una cantidad denerosa de aceite de oliva virgen extra en una cazuela.</li>
+                <li>Pochar el ajo y la cebolla picadas <b>durante 15 minutos a fuego suave.</b></li>
+                <li>Agregar los pimientos y <b>pochar durante 15 minutos más.</b></li>
+                <li>Incorporar la berenjena y el calabacín, removiendo ocasionalmente.</li>
+                <li>Por último, añadir los tomates troceados, sazonar con sal y pimienta al gusto.</li>
+                <li>Cocinar a fuego lento, tapado <b>durante durante hora y media como mínimo.</b></li>
+                <li>Transcurrido ese tiempo, retirar la tapadera de la cazuela y subir un poco el fuego.</li>
+                <li>Cocer durante 15 minutos más o hasta que el agua del tomate se haya evaporado.</li>
+                <li><b>Asegurarse de que no quede resto de agua de las verduras</b>, pero tener cuidado de que quede jugoso.</li>
+                <li>Servir caliente, acompañado de pan o como guarnición.</li>
+            </ol>
+        </section>
+        <section>
+            <img src="https://d.img.vision/neri/1366_2000_(1).jpg" alt="Ingredientes" width="300" height="225"></img>
+        </section>
+        <section>
+    <h2>¿Te ha gustado esta receta?</h2>
+    <form>
+        <label for="feedback">Tu opinión:</label><br />
+        <textarea id="feedback" rows="4" cols="50"></textarea><br />
+        <button type="submit">Enviar</button>
+    </form>
+</section><br>
+        <section>
+            <button onclick="window.print()">Imprimir esta receta</button>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Recetas Tradicionales</p>
+    </footer>
+</body>
+</html>
