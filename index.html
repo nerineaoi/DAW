@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAW · Web Application Development</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card: #161b22;
+      --text: #e6edf3;
+      --muted: #9ba3af;
+      --accent: #3b82f6;
+      --border: #30363d;
+      --radius: 14px;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, #0f172a 0%, #0d1117 100%);
+    }
+    h1 { font-size: 2.3rem; margin: 0; }
+    p.lead { color: var(--muted); margin-top: 0.5rem; }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.7rem;
+      font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    h2 { margin-top: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.2rem;
+      transition: transform 0.15s ease, border-color 0.2s ease;
+    }
+    .card:hover { transform: translateY(-3px); border-color: var(--accent); }
+    .card h3 { margin-top: 0; color: var(--accent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .tag {
+      font-size: 0.8rem;
+      background: #1e293b;
+      color: var(--muted);
+      padding: 0.1rem 0.6rem;
+      border-radius: 999px;
+      margin-left: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding: 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Application Development (DAW)</h1>
+    <p class="lead">Assignments, projects, and documentation by <strong>Ana Vertedor (Nerine Aoi)</strong></p>
+    <nav>
+      <a href="#english">English</a> |
+      <a href="#spanish">Español</a>
+    </nav>
+  </header>
+
+  <main id="english">
+    <h2>Program Overview</h2>
+    <p>This repository collects all coursework, projects, and exercises completed during my <em>Desarrollo de Aplicaciones Web (DAW)</em> studies. It’s organized by academic year, with each subject including its own documentation and project files.</p>
+
+    <h2>1st Year</h2>
+    <div class="grid">
+      <div class="card"><h3>Computer Systems <span class="tag">1st</span></h3><p>Hardware, operating systems, and networks.</p></div>
+      <div class="card"><h3>Programming <span class="tag">1st</span></h3><p>Logic, algorithms, and structured programming.</p></div>
+      <div class="card"><h3>Databases <span class="tag">1st</span></h3><p>Relational modeling and SQL queries.</p></div>
+      <div class="card"><h3>Markup Languages <span class="tag">1st</span></h3><p>HTML, XML, CSS, and document structure.</p><a href="Lenguaje-de-Marcas/">→ Open module</a></div>
+      <div class="card"><h3>Development Environments <span class="tag">1st</span></h3><p>IDEs, version control, and debugging tools.</p></div>
+    </div>
+
+    <h2>2nd Year</h2>
+    <div class="grid">
+      <div class="card"><h3>Client-Side Web Development <span class="tag">2nd</span></h3><p>Dynamic interfaces with JavaScript.</p></div>
+      <div class="card"><h3>Server-Side Web Development <span class="tag">2nd</span></h3><p>Web applications with PHP, Node.js, and databases.</p></div>
+      <div class="card"><h3>Web Application Deployment <span class="tag">2nd</span></h3><p>Server setup, pipelines, and cloud hosting.</p></div>
+      <div class="card"><h3>Web Interface Design <span class="tag">2nd</span></h3><p>Responsive and accessible UI/UX design.</p></div>
+      <div class="card"><h3>Blockchain <span class="tag">2nd</span></h3><p>Smart contracts and decentralized applications.</p></div>
+      <div class="card"><h3>Final Project (TFG) <span class="tag">2nd</span></h3><p>Multidisciplinary integration of all modules.</p></div>
+    </div>
+  </main>
+
+  <main id="spanish">
+    <h2>Resumen en español</h2>
+    <p>Repositorio con todas las prácticas, proyectos y ejercicios del ciclo formativo <strong>Desarrollo de Aplicaciones Web (DAW)</strong>, organizado por curso académico y asignaturas con su documentación y trabajos.</p>
+
+    <h2>1º Curso</h2>
+    <div class="grid">
+      <div class="card"><h3>Sistemas Informáticos <span class="tag">1º</span></h3><p>Fundamentos de hardware, sistemas operativos y redes.</p></div>
+      <div class="card"><h3>Programación <span class="tag">1º</span></h3><p>Algoritmos y estructuras de control.</p></div>
+      <div class="card"><h3>Bases de Datos <span class="tag">1º</span></h3><p>Modelado relacional y consultas SQL.</p></div>
+      <div class="card"><h3>Lenguajes de Marcas <span class="tag">1º</span></h3><p>HTML, XML, CSS y estructuras documentales.</p><a href="Lenguaje-de-Marcas/">→ Abrir módulo</a></div>
+      <div class="card"><h3>Entornos de Desarrollo <span class="tag">1º</span></h3><p>IDE, control de versiones y depuración.</p></div>
+    </div>
+
+    <h2>2º Curso</h2>
+    <div class="grid">
+      <div class="card"><h3>Desarrollo Web en Entorno Cliente <span class="tag">2º</span></h3><p>Interfaces dinámicas con JavaScript.</p></div>
+      <div class="card"><h3>Desarrollo Web en Entorno Servidor <span class="tag">2º</span></h3><p>Aplicaciones web con PHP, Node.js y bases de datos.</p></div>
+      <div class="card"><h3>Despliegue de Aplicaciones Web <span class="tag">2º</span></h3><p>Configuración de servidores, pipelines y hosting.</p></div>
+      <div class="card"><h3>Diseño de Interfaces Web <span class="tag">2º</span></h3><p>Diseño UI/UX adaptable y accesible.</p></div>
+      <div class="card"><h3>Blockchain <span class="tag">2º</span></h3><p>Sistemas distribuidos y contratos inteligentes.</p></div>
+      <div class="card"><h3>Proyecto Final (TFG) <span class="tag">2º</span></h3><p>Proyecto integrador de los módulos DAW.</p></div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Ana Vertedor (alias Nerine Aoi) · Academic years 2024–2026 · <a href="https://github.com/nerineaoi/DAW">GitHub Repository</a>
+  </footer>
+</body>
+</html>
