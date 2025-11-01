@@ -27,7 +27,7 @@ This subject focused on computer systems, operating systems, and network managem
 
 ---
 
-> All documents are original coursework created by **Ana Paula Vertedor Conde**  (Alias: **Nerine Aoi**)
+> All documents are original coursework created by **Ana Vertedor**  (Alias: **Nerine Aoi**)
 > for the *Ciclo Formativo de Grado Superior – Desarrollo de Aplicaciones Web (DAW)*.
 
 ---
