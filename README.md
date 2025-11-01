@@ -41,5 +41,5 @@ Cada carpeta incluye ejercicios prácticos, informes y proyectos desarrollados e
 
 ---
 
-> All coursework created by **Ana Paula Vertedor Conde**  (Alias: **Nerine Aoi**)
+> All coursework created by **Ana Vertedor**  (Alias: **Nerine Aoi**)
 > Academic years **2024–2026**
