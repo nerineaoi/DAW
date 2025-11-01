@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulación de XML</title>
+</head>
+<body>
+    <h1>Pedido de Artículos</h1>
+    <div id="contenido"></div>
+
+    <script>
+        const pedidoXML = `<?xml version="1.0" encoding="UTF-8"?>
+        <pedido>
+            <articulo tipo="lápiz" id="1">
+                <marca>A</marca>
+                <cantidad>30</cantidad>
+                <color>negro</color>
+            </articulo>
+            <articulo tipo="bloc" id="2">
+                <marca>B</marca>
+                <cantidad>20</cantidad>
+                <color>azul</color>
+            </articulo>
+            <articulo tipo="bolígrafo" id="3">
+                <marca>C</marca>
+                <cantidad>40</cantidad>
+                <color>verde</color>
+            </articulo>
+            <articulo tipo="bolígrafo" id="4">
+                <marca>D</marca>
+                <cantidad>20</cantidad>
+                <color>negro</color>
+            </articulo>
+        </pedido>`;
+
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(pedidoXML, 'application/xml');
+
+        const pedido = xmlDoc.querySelector('pedido');
+
+        const nuevoArticulo = xmlDoc.createElement('articulo');
+        nuevoArticulo.setAttribute('tipo', 'marcador');
+        nuevoArticulo.innerHTML = '<marca>E</marca><cantidad>15</cantidad><color>red</color>';
+        pedido.appendChild(nuevoArticulo);
+
+        const articulos = xmlDoc.getElementsByTagName('articulo');
+
+        let html = '<ul>';
+        for (let articulo of articulos) {
+            const tipo = articulo.getAttribute('tipo') || 'Sin tipo';
+            const marca = articulo.getElementsByTagName('marca')[0]?.textContent || 'Sin marca';
+            const cantidad = articulo.getElementsByTagName('cantidad')[0]?.textContent || '0';
+            let color = articulo.getElementsByTagName('color')[0]?.textContent || 'white';
+
+            // Mapeo de colores en español a inglés
+            const colorMap = {
+                'negro': 'black',
+                'azul': 'blue',
+                'verde': 'green',
+                'rojo': 'red'
+            };
+            color = colorMap[color.toLowerCase()] || color;
+
+            const textoColor = (color === 'black' || color === 'blue') ? 'white' : 'black';
+
+            html += `<li style="background-color: ${color}; color: ${textoColor}; 
+                        padding: 10px; margin: 5px; border: 1px solid black; list-style: none;">
+                        <strong>Tipo:</strong> ${tipo} |
+                        <strong>Marca:</strong> ${marca} |
+                        <strong>Cantidad:</strong> ${cantidad}
+                     </li>`;
+        }
+        html += '</ul>';
+
+        document.getElementById('contenido').innerHTML = html;
+    </script>
+</body>
+</html>
