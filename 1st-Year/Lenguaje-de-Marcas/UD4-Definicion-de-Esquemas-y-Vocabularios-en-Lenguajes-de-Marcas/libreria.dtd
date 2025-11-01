@@ -1,0 +1,11 @@
+<!ELEMENT libreria (categoria+)>
+
+<!ELEMENT categoria (libro+)>
+<!ATTLIST categoria nombre CDATA #REQUIRED>
+
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro 
+    titulo CDATA #REQUIRED
+    autor CDATA #REQUIRED
+    publicado CDATA #REQUIRED
+    editorial CDATA #REQUIRED>

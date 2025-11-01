@@ -1,0 +1,103 @@
+:root {
+  --rosa: #E05B8D;
+  --rosa-borde: #E09DBF;
+  --verde: #A1D8B6;
+  --texto: #333;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, Arial, sans-serif;
+  color: var(--texto);
+  background: #fff;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 400px;
+  height: auto;
+}
+
+h1 {
+  color: var(--rosa);
+  text-align: center;
+  margin: 8px 0 16px;
+}
+h2 {
+  text-align: center;
+  color: var(--verde);
+  margin: 24px 0 12px;
+}
+
+/* --- PARA INDEX.HTML --- */
+.categoria {
+  margin-bottom: 36px;
+}
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card {
+  border: 2px solid var(--rosa-borde);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,.08);
+}
+.card a {
+  color: var(--rosa);
+  font-weight: 700;
+  text-decoration: none;
+}
+.card a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr; }
+}
+
+/* --- PARA LIBRO.HTML --- */
+img {
+  max-width: 300px;
+  height: auto;
+  margin: 8px 0 28px;
+}
+.info {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+}
+.info p {
+  margin: 8px 0;
+}
+.info strong {
+  color: var(--rosa);
+}
+.back {
+  margin-top: 22px;
+  text-align: center;
+}
+.back a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 600;
+}
+.back a:hover {
+  text-decoration: underline;
+}
+#imagen {
+  display: block;
+  margin: 8px auto 24px; 
+  border-radius: 8px;
+  border: 1px solid #eee;
+  max-width: 300px;
+  height: auto;
+}
