@@ -1,8 +1,8 @@
-Algoritmo ContarCifras
     // --- UD1: Identificación de los Elementos de un Programa Informático ---
     // Autor: Ana Vertedor (Nerine Aoi)
     // Fecha: 26/10/22024
 
+Algoritmo ContarCifras
     // Declaración de variables
     Definir numero Como Entero // Variable para almacenar el número ingresado por el usuario
     Definir respuesta Como Caracter // Variable para almacenar la decisión de continuar o finalizar del usuario
@@ -49,3 +49,4 @@ Algoritmo ContarCifras
     // Mensaje final al cerrar el programa
     Escribir "Programa finalizado."
 FinAlgoritmo
+
