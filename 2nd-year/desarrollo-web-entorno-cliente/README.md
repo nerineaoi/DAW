@@ -36,3 +36,34 @@ desarrollo-web-entorno-cliente/
 ├─ ud4-asincronia-apis/
 ├─ ud5-frameworks/
 └─ ud6-proyecto-final/
+```
+📝 Learning Goals | Objetivos de Aprendizaje
+
+EN
+
+Understand how browsers execute JavaScript and interact with HTML/CSS.
+
+Manipulate the DOM dynamically and respond to user events.
+
+Write modular, reusable, and object-oriented code.
+
+Consume REST APIs asynchronously.
+
+Build dynamic, interactive, and accessible user interfaces.
+
+ES
+
+Comprender cómo los navegadores ejecutan JavaScript e interactúan con HTML/CSS.
+
+Manipular el DOM de forma dinámica y responder a eventos del usuario.
+
+Escribir código modular, reutilizable y orientado a objetos.
+
+Consumir APIs REST de forma asíncrona.
+
+Crear interfaces de usuario dinámicas, interactivas y accesibles.
+
+✍️ Author / Autora: Ana Vertedor
+Alias: Nerine Aoi
+📅 Subject / Asignatura: Desarrollo Web en Entorno Cliente
+🏫 Program / Ciclo: Desarrollo de Aplicaciones Web (DAW)
