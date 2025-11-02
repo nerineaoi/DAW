@@ -39,3 +39,34 @@ diseno-interfaces-web/
 ├─ ud5-prototipado/
 ├─ ud6-sistemas-diseno/
 └─ ud7-proyecto-final/
+```
+📝 Learning Goals | Objetivos de Aprendizaje
+
+EN
+
+Apply design principles to create visually balanced interfaces.
+
+Structure semantic, accessible HTML documents.
+
+Use CSS and modern layout systems for responsive design.
+
+Prototype and test UI/UX using digital tools.
+
+Develop accessible, aesthetic, and functional web interfaces.
+
+ES
+
+Aplicar principios de diseño para crear interfaces visualmente equilibradas.
+
+Estructurar documentos HTML semánticos y accesibles.
+
+Usar CSS y sistemas modernos de maquetación para diseño adaptable.
+
+Prototipar y probar interfaces con herramientas digitales.
+
+Desarrollar interfaces web accesibles, estéticas y funcionales.
+
+✍️ Author / Autora: Ana Vertedor
+Alias: Nerine Aoi
+📅 Subject / Asignatura: Diseño de Interfaces Web
+🏫 Program / Ciclo: Desarrollo de Aplicaciones Web (DAW)
