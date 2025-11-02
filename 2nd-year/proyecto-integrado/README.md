@@ -37,3 +37,35 @@ proyecto-integrado/
 ├─ fase4-frontend/
 ├─ fase5-despliegue-tests/
 └─ fase6-presentacion/
+```
+
+##📝 Learning Goals | Objetivos de Aprendizaje
+
+EN
+
+Design and plan a complete web application with clear objectives.
+
+Apply agile development and version control practices.
+
+Integrate frontend, backend, and database systems.
+
+Deploy and test the final project in a real or simulated environment.
+
+Present and defend the project with professional documentation.
+
+ES
+
+Diseñar y planificar una aplicación web completa con objetivos definidos.
+
+Aplicar metodologías ágiles y control de versiones.
+
+Integrar frontend, backend y base de datos.
+
+Desplegar y probar el proyecto en un entorno real o simulado.
+
+Presentar y defender el proyecto con documentación profesional.
+
+✍️ Author / Autora: Ana Vertedor
+Alias: Nerine Aoi
+📅 Subject / Asignatura: Proyecto Integrado
+🏫 Program / Ciclo: Desarrollo de Aplicaciones Web (DAW)
