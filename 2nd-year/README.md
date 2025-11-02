@@ -24,7 +24,6 @@ Each subject has its own folder with documentation, code, and a bilingual README
 ```text
 daw-2nd-year/
 ├─ README.md
-├─ bases-de-datos/
 ├─ despliegue-aplicaciones-web/
 ├─ desarrollo-web-entorno-cliente/
 ├─ desarrollo-web-entorno-servidor/
