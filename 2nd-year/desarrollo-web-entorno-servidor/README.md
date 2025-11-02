@@ -39,3 +39,34 @@ desarrollo-web-entorno-servidor/
 ├─ ud5-seguridad/
 ├─ ud6-apis-frameworks/
 └─ ud7-proyecto-final/
+```
+
+📝 Learning Goals | Objetivos de Aprendizaje
+EN
+
+Understand the client-server architecture and HTTP lifecycle.
+
+Write server-side scripts to process data and generate dynamic pages.
+
+Interact with relational databases (CRUD operations).
+
+Manage authentication, sessions, and security.
+
+Build APIs and integrate backend frameworks.
+
+ES
+
+Comprender la arquitectura cliente-servidor y el ciclo de vida de una petición HTTP.
+
+Escribir scripts del lado del servidor para procesar datos y generar páginas dinámicas.
+
+Interactuar con bases de datos relacionales (operaciones CRUD).
+
+Gestionar autenticación, sesiones y seguridad.
+
+Crear APIs e integrar frameworks de backend.
+
+✍️ Author / Autora: Ana Vertedor
+Alias: Nerine Aoi
+📅 Subject / Asignatura: Desarrollo Web en Entorno Servidor
+🏫 Program / Ciclo: Desarrollo de Aplicaciones Web (DAW)
