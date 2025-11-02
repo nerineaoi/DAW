@@ -48,3 +48,10 @@ si desea continuar.
 - Entrada/salida de datos  
 - Validación de rango y control del usuario  
 - Sintaxis de pseudocódigo en **PSeInt**
+
+📂 Contents / Contenido
+
+EjerciciosStreams.java – Ejercicios prácticos sobre lectura y escritura de archivos utilizando flujos en Java.
+
+All coursework created by Ana Vertedor (Alias: Nerine Aoi)
+Academic years 2024–2026
