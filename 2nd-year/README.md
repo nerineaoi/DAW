@@ -10,7 +10,7 @@ Each subject has its own folder with documentation, code, and a bilingual README
 
 | Subject | Folder | Status |
 |:--|:--|:--|
-| **Web App Deployment** | [despliegue-aplicaciones-web](./despliegue-aplicaciones-web/) | 🚧 In progress |
+| **Web App Deployment** | [despliegue-aplicaciones-web](./despliegue-de-aplicaciones-web/) | 🚧 In progress |
 | **Client-Side Web Development** | [desarrollo-web-entorno-cliente](./desarrollo-web-entorno-cliente/) | 🚧 In progress |
 | **Server-Side Web Development** | [desarrollo-web-entorno-servidor](./desarrollo-web-entorno-servidor/) | 🚧 In progress |
 | **Web Interface Design** | [diseno-interfaces-web](./diseno-interfaces-web/) | 🚧 In progress |
