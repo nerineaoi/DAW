@@ -1,7 +1,7 @@
-// Algoritmo para contar cifras de un número en el rango especificado.
-    // --- UD1: Identificación de los Elementos de un Programa Informático ---
-    // Autor: Ana Vertedor (Nerine Aoi)
-    // Fecha: 26/10/22024
+// --- UD1: Identificación de los Elementos de un Programa Informático ---
+// Autor: Ana Vertedor (Nerine Aoi)
+// Fecha: 26/10/22024
+
 Algoritmo ContarCifras
     // Declaración de variables
     Definir numero Como Entero
@@ -43,3 +43,4 @@ Algoritmo ContarCifras
         Leer continuar
     Hasta Que continuar <> "s"
 FinAlgoritmo
+
