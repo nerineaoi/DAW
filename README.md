@@ -15,7 +15,7 @@ and project files.
 |----------|-------------|
 | [**Sistemas Informáticos**](./1st-Year/Sistemas-Informaticos) | Computer systems, operating systems, and networking fundamentals. |
 | [**Programación**](./1st-Year/Programacion) | Basics of logic, algorithms, and structured programming. |
-| [**Bases de Datos**](./1st-Year/Bases-de-Datos) | Database modeling and SQL queries. |
+| [**Bases de Datos**](./1st-Year/bases-de-datos) | Database modeling and SQL queries. |
 | [**Lenguajes de Marcas**](./1st-Year/Lenguaje-de-Marcas) | HTML, XML, and web standards. |
 | [**Entornos de Desarrollo**](./1st-Year/Entornos-de-Desarrollo) | IDEs, version control, and debugging tools. |
 
