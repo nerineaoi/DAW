@@ -32,6 +32,11 @@ and understanding the four main OOP principles: **encapsulation, inheritance, ab
 
 ---
 
+> All code written by **Ana Vertedor (Nerine Aoi)**
+> Higher Degree in **Web Application Development (DAW)** - 2024-2026
+
+---
+
 ## 🇪🇸 Resumen en español  
 
 Esta unidad introduce el paradigma de la **Programación Orientada a Objetos (POO)** en Java.  
